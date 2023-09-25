@@ -1,0 +1,29 @@
+.section-title {
+    font-family: inherit;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    color: $main-text-color;
+    text-align: left;
+  
+    margin: 0;
+    margin-bottom: 48px;
+  
+    @include onTablet {
+      margin-bottom: 56px;
+      font-size: 40px;
+    }
+  
+    @include onDesktop {
+      font-size: 48px;
+    }
+  
+    &--contact {
+      margin-top: 64px;
+  
+      @include onTablet {
+        margin-top: 120px;
+      }
+    }
+  }
+  
